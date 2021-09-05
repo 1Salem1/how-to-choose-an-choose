@@ -4,7 +4,7 @@ import { info , Product, products ,Prediction } from '../skis';
 @Component({
   selector: 'app-ski-result',
   templateUrl: './ski-result.component.html',
-  styleUrls: ['./ski-result.component.css']
+  styleUrls: ['./ski-result.component.scss']
 })
 export class SkiResultComponent implements OnInit {
   height : number = 0
@@ -45,7 +45,7 @@ export class SkiResultComponent implements OnInit {
    this.terrain = this.shared.getTerrainType()
    this.ski_style = this.shared.getSkiStyle()
    this.riding_speed = this.shared.getRiding()
-   
+
 
    for (var ski of products){
 

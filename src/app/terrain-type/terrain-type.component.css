@@ -3,11 +3,7 @@ body {
 
 }
 
-label.radio {
-  width: 32px;
-  position : absolute;
-  align-items: center;
-}
+
 .forward {
   float : right
 }

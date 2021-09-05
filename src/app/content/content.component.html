@@ -3,12 +3,7 @@
 
 
 <html>
-    <body>
-      
-
-
-
-      
+    <body>    
 <div class="container">
   <form  [formGroup]='myForm'>
     <div class="step">
@@ -16,7 +11,7 @@
       <div class="review_block">
         <p class="range-field">
           <input  formControlName = "height"  class="slider" type="range" id="range_height" min="130" max="210" step="1"   oninput="this.nextElementSibling.value = this.value +' cm'"/> 
-          <input  type="text"id="output-weight" /> <output for ="range_height" ></output>
+          <output for ="range_height" ></output>
        
         </p>
       </div>

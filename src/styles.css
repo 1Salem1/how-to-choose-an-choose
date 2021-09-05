@@ -1,9 +1,25 @@
+
 /* You can add global styles to this file, and also import other style files */
 main {
     text-align : center;
     position : relative;
    
 }
+.checkbox_radio_container .radio, .checkbox_radio_container .checkbox {
+  display: inline-block  !important;
+  width: 25px !important;
+  height: 25px !important;
+  padding: 6px !important; 
+  background: #fff !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  z-index: 9 !important; 
+  left: 8px !important;
+  top: 7px !important;
+  display: flex !important;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
     :root {
@@ -11391,7 +11407,7 @@ footer ul li a:hover {
 }
 @media (max-width: 767px) {
   #wizard_container {
-    width: 100%;
+    width: 200%;
     height: auto;
   }
 }

@@ -11,10 +11,10 @@ const routes: Routes = [
 { path: 'step1',   component:ContentComponent   , data : {animation : 'isRight'}},
 { path: 'step2',    component:Content2Component  , data :{animation : 'isLeft'}},
 { path: 'terrain',   component:TerrainTypeComponent  , data :{animation : 'isRight'}},
-{ path: 'riding',   component:RidingSpeedComponent   , data :{animation : 'isLeft'}},
-{ path: 'style',   component:SkiStyleComponent   , data :{animation : 'isLeft'}},
+{ path: 'riding',   component:RidingSpeedComponent   , data :{animation : 'isRight'}},
+{ path: 'style',   component:SkiStyleComponent   , data :{animation : 'isRight'}},
  { path: 'SkiLevel', component:SkiLevelComponent  , data :{animation : 'isRight'}},
- { path: 'result',   component:SkiResultComponent , data :{animation : 'isLeft'}},
+ { path: 'result',   component:SkiResultComponent , data :{animation : 'isRight'}},
  { path: '',         component:ContentComponent , data : {animation : 'isRight'}}
 ];
 
